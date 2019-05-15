@@ -1,0 +1,82 @@
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+  padding: 40px;
+}
+
+.title {
+  padding-bottom: 5px;
+  font-size: 50px;
+  font-family: "Baskerville";
+  font-weight: bold;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding: 40px;
+}
+
+.about {
+  padding: 15px;
+}
+
+.bodytext {
+  padding: 30px;
+}
+
+p {
+  font-size: 19px;
+  font-family: "Cambria";
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 200px;
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1300px) {
+  .leftcolumn {
+    width: 100%;
+    padding: 60px;
+  }
+
+  .rightcolumn {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .avatar {
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .about {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .avatar {
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
