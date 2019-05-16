@@ -52,14 +52,14 @@ p {
 
   .rightcolumn {
     width: 100%;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
 
   p {
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .avatar {
@@ -71,8 +71,8 @@ p {
   .about {
     padding: 0px;
   }
-  
+
   .header {
-   font-size: 32px; 
+   font-size: 32px;
   }
 }
