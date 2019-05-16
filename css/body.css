@@ -11,6 +11,7 @@
   font-size: 50px;
   font-family: "Baskerville";
   font-weight: bold;
+  text-align: center;
 }
 
 /* Right column */
@@ -18,7 +19,7 @@
   float: left;
   width: 25%;
   background-color: #f1f1f1;
-  padding: 40px;
+  padding: 20px;
 }
 
 .about {
@@ -36,14 +37,15 @@ p {
 
 .avatar {
   border-radius: 50%;
-  width: 200px;
+  width: 60%;
   display: block;
   margin-top: 10%;
   margin-bottom: 10%;
   margin-left: auto;
   margin-right: auto;
 }
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+/* Tablet/Non-max window desktop */
 @media screen and (max-width: 800px) {
   .leftcolumn {
     width: 100%;
@@ -59,7 +61,7 @@ p {
   }
 
   p {
-    font-size: 16px;
+    font-size: 19px;
   }
 
   .avatar {
@@ -72,7 +74,25 @@ p {
     padding: 0px;
   }
 
-  .header {
-   font-size: 32px;
+  .title {
+    font-size: 35px;
   }
+}
+
+/* Phone */
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 16px;
+  }
+
+  .leftcolumn {
+    padding: 40px;
+  }
+
+  .avatar {
+    width: 45%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
 }
