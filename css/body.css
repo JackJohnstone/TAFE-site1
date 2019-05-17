@@ -45,6 +45,17 @@ p {
   margin-right: auto;
 }
 
+.footer {
+  float: left;
+  background-color: #5c708c;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  font-style: italic;
+  border-top:6px solid #a85f8b;
+  text-align: center;
+}
+
 /* Tablet/Non-max window desktop */
 @media screen and (max-width: 800px) {
   .leftcolumn {
@@ -77,6 +88,7 @@ p {
   .title {
     font-size: 35px;
   }
+
 }
 
 /* Phone */

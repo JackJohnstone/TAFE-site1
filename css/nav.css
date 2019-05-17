@@ -35,14 +35,15 @@ h1 {
   color: #f2f2f2;
   font-family: "Arial";
   text-align: center;
-  padding: 14px 32px;
+  padding: 10px 32px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
+  width: 150px;
 }
 
 a:hover {
-  background-color: white;
-  color: black;
+  /*  background-color: white; */
+  color: lightgrey
 }
 
 /* Add an active class to highlight the current page */
@@ -86,6 +87,10 @@ a:hover {
     display: block;
     width: 100%;
     text-align: left;
+  }
+
+  .topnav a {
+      width: auto;
   }
 }
 
